@@ -1,0 +1,129 @@
+.footer--color {
+    background-color: var(--hero-color);
+  }
+  
+  .footer-container {
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  .footer-list {
+    display: block;
+    margin-right: 70px;
+  }
+  
+  .footer-list__logo {
+    display: block;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--white-text);
+  }
+  
+  .footer-list__logo-text {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--blue-text);
+  }
+  
+  .footer-contacts {
+    display: inline-block;
+  }
+  
+  .footer-contacts__location {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 9px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--white-text);
+    white-space: nowrap;
+  }
+  
+  .footer-contacts__mail {
+    display: block;
+    margin-bottom: 9px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--gray-text-op60);
+    transition: 250ms var(--timing);
+  }
+  
+  .footer-contacts__mail:hover {
+    color: var(--blue-text);
+  }
+  
+  .footer-contacts__tel {
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--gray-text-op60);
+    transition: 250ms var(--timing);
+  }
+  
+  .footer-contacts__tel:hover {
+    color: var(--blue-text);
+  }
+  
+  .footer-social {
+   margin-right: 93px;
+  }
+  
+  .footer-social__title {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white-text);
+  }
+  
+  .social-list {
+    display: flex;
+    width: 210px;
+    padding: auto;
+    margin: auto;
+    justify-content: space-between;
+  }
+  
+  .social-list__link {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    padding: 12px;
+    color: var(--white-text);
+    border-radius: 50%;
+    background-color: var(--footer-social-collor);
+    transition: 250ms var(--timing);
+  }
+  
+  .social-list__link:hover,
+  .social-list__link:focus {
+    color: var(--white-text);
+    background-color: var(--blue-color);
+  }
+  
+  .social-list__icon {
+    fill: currentColor;
+  }

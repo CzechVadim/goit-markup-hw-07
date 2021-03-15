@@ -1,0 +1,54 @@
+.services--color {
+    background-color: var(--white-color);
+  }
+  
+  .services-container {
+    padding-bottom: 94px;
+  }
+  
+  .services__title {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--black-text);
+  }
+  
+  .services-list {
+    display: flex;
+    justify-content: space-between; 
+  }
+  
+  .services-list__thumb {
+    position: relative;
+    height: 300px;
+  }
+  
+  .services-list__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .services-list__desc {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: var(--white-text);
+    background-color: var(--service-shadow-collor);
+  }

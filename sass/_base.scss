@@ -1,0 +1,273 @@
+:root {
+    --blue-text: #2196F3;
+    --black-text: #212121;
+    --gray-text: #757575;
+    --white-text: #FFFFFF;
+    --gray-text-op60: rgba(255, 255, 255, 0.6);
+    --icon-text: #AFB1B8;
+ 
+    --white-color: #FFFFFF;
+    --hero-color: #2F303A;
+    --light-gray-color: #F5F4FA;
+    --blue-color: #2196F3;
+    --gray-color: #AFB1B8;
+    --bg-light-white-collor: #EEEEEE;
+    --gradient-collor: rgba(47, 48, 58, 0.4);
+    --service-shadow-collor: rgba(47, 48, 58, 0.8);
+    --border-form:rgba(33, 33, 33, 0.2);
+    --footer-border: rgba(255, 255, 255, 0.3);
+    --footer-social-collor: rgba(255, 255, 255, 0.1);
+    --placeholder-collor:rgba(117, 117, 117, 0.5);
+    --backdrop-collor: rgba(0, 0, 0, 0.2);
+    --overlay-collor:rgba(33, 150, 243, 0.9);
+    --border-icon-collor:rgba(0, 0, 0, 0.1);
+    --team-box-shadow-1: rgba(0, 0, 0, 0.12);
+    --team-box-shadow-2: rgba(0, 0, 0, 0.14);
+    --team-box-shadow-3: rgba(0, 0, 0, 0.2);
+    
+    --timing: cubic-bezier(0.4, 0, 0.2, 1);
+ }
+
+
+  html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+  
+
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+
+  main {
+    display: block;
+  }
+  
+  
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  
+  
+  hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+  }
+  
+  
+  pre {
+    font-family: monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  
+  a {
+    background-color: transparent;
+  }
+  
+
+  abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+  }
+  
+  
+  b,
+  strong {
+    font-weight: bolder;
+  }
+  
+  
+  code,
+  kbd,
+  samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  
+  small {
+    font-size: 80%;
+  }
+  
+  
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  
+
+  sub {
+    bottom: -0.25em;
+  }
+  
+
+  sup {
+    top: -0.5em;
+  }
+  
+
+  img {
+    border-style: none;
+  }
+
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+  }
+  
+  
+  button,
+  input { /* 1 */
+    overflow: visible;
+  }
+  
+
+  button,
+  select {
+    text-transform: none;
+  }
+  
+  
+  button,
+  [type="button"],
+  [type="reset"],
+  [type="submit"] {
+    -webkit-appearance: button;
+  }
+  
+  
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  
+  
+  button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  
+  
+  fieldset {
+    padding: 0.35em 0.75em 0.625em;
+  }
+  
+  
+  legend {
+    box-sizing: border-box; 
+    color: inherit; 
+    display: table; 
+    max-width: 100%; 
+    padding: 0; 
+    white-space: normal; 
+  }
+  
+
+  progress {
+    vertical-align: baseline;
+  }
+  
+ 
+  textarea {
+    overflow: auto;
+  }
+  
+  
+  [type="checkbox"],
+  [type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+  }
+  
+  
+  [type="number"]::-webkit-inner-spin-button,
+  [type="number"]::-webkit-outer-spin-button {
+    height: auto;
+  }
+  
+  
+  [type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+  }
+  
+  
+  [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  
+  
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
+  }
+  
+  
+  details {
+    display: block;
+  }
+  
+  
+  summary {
+    display: list-item;
+  }
+  
+  
+  template {
+    display: none;
+  }
+  
+
+  [hidden] {
+    display: none;
+  }
+  
+
+  address {
+    font-style: normal;
+  }
+  
+
+  ul {
+    list-style: none;
+    padding: 0; 
+    margin: 0;
+  }
+  
+
+  a {
+    text-decoration: none;
+  }

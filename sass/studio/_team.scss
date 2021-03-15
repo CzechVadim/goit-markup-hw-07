@@ -1,0 +1,97 @@
+.team--color {
+    background-color: var(--light-gray-color);
+  }
+  
+  .team-container {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  
+  .team__title {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--black-text);
+  }
+  
+  .team-cards {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .master-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 1px 3px var(--team-box-shadow-1), 0px 1px 1px var(--team-box-shadow-2), 0px 2px 1px var(--team-box-shadow-3);
+    border-radius: 0px 0px 4px 4px;
+    background-color: var(--white-color);
+  }
+  
+  .master-card__avatar {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .master-card__name {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: var(--black-text);
+  }
+  
+  .master-card__profession {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: var(--gray-text);
+  }
+  
+  .master-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 210px;
+    margin-bottom: 19px;
+  }
+  
+  .master-social__item {
+    display: flex;
+    justify-content: center;
+  }
+    
+  .master-social__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: var(--icon-text);
+    transition: 250ms var(--timing);
+  }
+  
+  .master-social__link:hover,
+  .master-social__link:focus {
+    background-color: var(--blue-color);
+    color: var(--white-text);
+  }
+  
+  .master-social__icon {
+    fill: currentColor;
+  }

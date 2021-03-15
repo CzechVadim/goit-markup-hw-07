@@ -1,0 +1,21 @@
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 530px;
+    height: 580px;
+    background-color: var(--white-color);
+  }
+
+  .modal__title {
+  margin-top: 40px; 
+  margin-bottom: 12px;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.03em;
+  color: var(--black-text);
+}

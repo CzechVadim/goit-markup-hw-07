@@ -1,0 +1,47 @@
+.clients--color {
+    background-color: var(--white-color);
+  }
+  
+  .clients-container {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  
+  .clients__title {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--black-text);
+  }
+  
+  .client-card {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .client-card__link {
+    display: flex;
+    width: 170px;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    color: var(--gray-color);
+    border: 1px solid var(--gray-color);
+    border-radius: 4px;
+    transition: 250ms var(--timing);
+  }
+  
+  .client-card__link:hover,
+  .client-card__link:focus {
+    color: var(--blue-color);
+    box-shadow: 0 0 0 2px var(--blue-color);
+  }
+  
+  .client-card__icon {
+    fill: currentColor;
+  }
